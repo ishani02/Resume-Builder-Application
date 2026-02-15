@@ -61,13 +61,6 @@ service cloud.firestore {
 npm run build
 ```
 
-## Deploy (Vercel)
-1. Push this repo to GitHub
-2. Import it in Vercel
-3. Build command: `npm run build`
-4. Output directory: `build`
-5. Add the same env vars in Vercel settings
-
 ## Project Structure
 ```
 src/
