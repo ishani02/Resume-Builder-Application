@@ -1,0 +1,193 @@
+/* Skin 1 - Classic Professional Resume */
+
+.skin1-container {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background: white;
+    box-sizing: border-box;
+}
+
+.contact-details-skin1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 20px 16px;
+    border-bottom: 2px solid #2563eb;
+}
+
+.contact-full-name {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a2e;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 4px;
+}
+
+.email-phone {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.email-details,
+.phone-details {
+    font-size: 11px;
+    color: #64748b;
+}
+
+.email-details::before {
+    content: "✉ ";
+}
+
+.phone-details::before {
+    content: "☎ ";
+}
+
+.address-details {
+    font-size: 11px;
+    color: #64748b;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.profession-details {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2563eb;
+    margin-top: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Sections */
+.professional-summary-skin1,
+.education-details-skin1,
+.experience-details-skin1,
+.Skills-details-skin1,
+.projects-details-skin1 {
+    padding: 0 20px;
+    margin-top: 16px;
+}
+
+.professional-summary-heading,
+.education-details-heading,
+.experience-details-heading,
+.skills-details-heading,
+.projects-details-heading {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #1a1a2e;
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+}
+
+.professional-summary-details {
+    font-size: 11px;
+    line-height: 1.6;
+    color: #475569;
+    text-align: justify;
+}
+
+/* Education */
+.education-details {
+    padding-left: 12px;
+    border-left: 2px solid #e2e8f0;
+}
+
+.education-details-degree {
+    font-size: 12px;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 4px;
+}
+
+.education-details-name {
+    font-size: 11px;
+    color: #64748b;
+    line-height: 1.5;
+}
+
+/* Skills */
+.skills-details ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills-details ul li {
+    background: #f1f5f9;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 10px;
+    color: #1a1a2e;
+}
+
+/* Projects */
+.projects-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.projects-details ul li {
+    font-size: 11px;
+    color: #475569;
+    padding: 6px 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.projects-details ul li:last-child {
+    border-bottom: none;
+}
+
+/* Experience */
+.experience-details-skin1 .experience-details {
+    font-size: 11px;
+    color: #475569;
+    line-height: 1.7;
+    padding-left: 12px;
+    border-left: 2px solid #e2e8f0;
+}
+
+/* Skills */
+.skills-details-skin1 {
+    padding: 0 20px;
+    margin-top: 16px;
+}
+
+.skills-details-heading {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #1a1a2e;
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill-tag {
+    background: #f1f5f9;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 10px;
+    color: #1a1a2e;
+    font-weight: 500;
+}

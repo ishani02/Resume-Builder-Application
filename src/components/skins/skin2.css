@@ -1,0 +1,201 @@
+/* Skin 2 - Modern Professional Resume */
+
+.skin2-container {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background: white;
+    box-sizing: border-box;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.contact-details-skin2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background: linear-gradient(135deg, #1a1a2e, #2d2d44);
+    color: white;
+}
+
+.contact-details-name-s2 {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.contact-details-logo-s2 {
+    width: 48px;
+    height: 48px;
+    background: white;
+    color: #1a1a2e;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.contact-details-info-s2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-details-fullName-s2 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.contact-details-profession-s2 {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 4px;
+}
+
+.contact-details-email-phone-s2 {
+    text-align: right;
+    font-size: 10px;
+    line-height: 1.8;
+}
+
+.contact-details-address-s2,
+.contact-details-phone-s2,
+.contact-details-email-s2 {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* Sections */
+.professional-summary-skin2,
+.Skills-details-skin2,
+.projects-details-skin2,
+.education-details-skin2,
+.experience-details-skin2 {
+    padding: 0 20px;
+    margin-top: 16px;
+}
+
+.professional-summary-heading-s2,
+.skills-details-heading-s2,
+.projects-details-heading-s2,
+.education-details-heading-s2,
+.experience-details-heading-s2 {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #1a1a2e;
+    padding: 6px 10px;
+    background: #e2e8f0;
+    border-left: 3px solid #2563eb;
+    margin-bottom: 10px;
+}
+
+.professional-summary-details-s2 {
+    font-size: 11px;
+    line-height: 1.7;
+    color: #475569;
+}
+
+/* Skills */
+.skills-details-s2 ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills-details-s2 ul li {
+    background: #f1f5f9;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-size: 10px;
+    color: #1a1a2e;
+    font-weight: 500;
+}
+
+/* Projects */
+.projects-details-s2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.projects-details-s2 ul li {
+    font-size: 11px;
+    color: #475569;
+    padding: 8px 0;
+    border-bottom: 1px solid #e2e8f0;
+    line-height: 1.6;
+}
+
+.projects-details-s2 ul li:last-child {
+    border-bottom: none;
+}
+
+/* Education */
+.education-details-s2 {
+    padding-left: 12px;
+    border-left: 2px solid #2563eb;
+}
+
+.education-details-degree-s2 {
+    font-size: 12px;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 4px;
+}
+
+.education-details-name-s2 {
+    font-size: 11px;
+    color: #64748b;
+    line-height: 1.6;
+}
+
+/* Experience */
+.experience-details-s2 {
+    font-size: 11px;
+    color: #475569;
+    line-height: 1.7;
+    padding-left: 12px;
+    border-left: 2px solid #2563eb;
+}
+
+/* Skills */
+.skills-details-skin2 {
+    padding: 0 20px;
+    margin-top: 16px;
+}
+
+.skills-details-heading-s2 {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #1a1a2e;
+    padding: 6px 10px;
+    background: #e2e8f0;
+    border-left: 3px solid #2563eb;
+    margin-bottom: 10px;
+}
+
+.skills-list-s2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill-tag-s2 {
+    background: #f1f5f9;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-size: 10px;
+    color: #1a1a2e;
+    font-weight: 500;
+}

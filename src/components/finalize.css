@@ -1,0 +1,343 @@
+/* Finalize Page - Professional Design */
+
+.finalize {
+    display: flex;
+    gap: 40px;
+    padding: 40px 5%;
+    background: #f8fafc;
+    min-height: calc(100vh - 70px);
+}
+
+/* Left Side - Preview */
+.finalize-left {
+    flex: 1;
+    max-width: 600px;
+}
+
+.preview-header {
+    margin-bottom: 24px;
+}
+
+.preview-header h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 8px;
+}
+
+.preview-header p {
+    color: #64748b;
+    font-size: 0.95rem;
+}
+
+.preview-wrapper {
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0;
+    width: fit-content;
+    background: white;
+}
+
+.final-preview {
+    background: white;
+    /* A4 at 72 DPI = 595pt x 842pt */
+    width: 595px;
+    height: 842px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.final-preview .resume-page {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: white;
+    box-sizing: border-box;
+}
+
+/* Right Side - Actions */
+.finalize-right {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: sticky;
+    top: 90px;
+    height: fit-content;
+}
+
+/* Download Section */
+.download-section {
+    background: white;
+    border-radius: 16px;
+    padding: 32px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    border: 1px solid #e2e8f0;
+}
+
+.download-icon {
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(135deg, #fef3c7, #fde68a);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+
+.download-icon i {
+    font-size: 28px;
+    color: #d97706;
+}
+
+.download-section h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 8px;
+}
+
+.download-section p {
+    color: #64748b;
+    font-size: 0.95rem;
+    margin-bottom: 24px;
+}
+
+.download-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 20px rgba(16, 185, 129, 0.35);
+}
+
+.download-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(16, 185, 129, 0.45);
+}
+
+.download-btn i {
+    font-size: 1.1rem;
+}
+
+.back-link {
+    display: block;
+    margin-top: 12px;
+}
+
+.back-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    background: white;
+    color: #64748b;
+    border: 2px solid #e2e8f0;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.back-btn:hover {
+    background: #f8fafc;
+    border-color: #cbd5e1;
+    color: #475569;
+}
+
+.back-btn i {
+    font-size: 0.9rem;
+}
+
+/* Template Section */
+.template-section {
+    background: linear-gradient(135deg, #1a1a2e, #2d2d44);
+    border-radius: 16px;
+    padding: 28px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+.template-section h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.template-section > p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.templates-slider {
+    padding: 0 10px;
+}
+
+.slide-item {
+    padding: 10px;
+}
+
+.template-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    border: 3px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.template-card:hover {
+    border-color: #2563eb;
+}
+
+.template-card.selected {
+    border-color: #10b981;
+}
+
+.template-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.use-btn {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
+    opacity: 0;
+    white-space: nowrap;
+}
+
+.template-card:hover .use-btn {
+    opacity: 1;
+}
+
+.template-card.selected .use-btn {
+    opacity: 1;
+    background: linear-gradient(135deg, #10b981, #059669);
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
+}
+
+/* Slick Carousel Customization */
+.templates-slider .slick-prev,
+.templates-slider .slick-next {
+    z-index: 10;
+    width: 30px;
+    height: 30px;
+}
+
+.templates-slider .slick-prev {
+    left: -5px;
+}
+
+.templates-slider .slick-next {
+    right: -5px;
+}
+
+.templates-slider .slick-prev::before,
+.templates-slider .slick-next::before {
+    color: white !important;
+    font-size: 24px;
+    opacity: 0.8;
+}
+
+.templates-slider .slick-prev:hover::before,
+.templates-slider .slick-next:hover::before {
+    opacity: 1;
+}
+
+.templates-slider .slick-dots {
+    bottom: -30px;
+}
+
+.templates-slider .slick-dots li button:before {
+    color: white;
+    opacity: 0.5;
+}
+
+.templates-slider .slick-dots li.slick-active button:before {
+    color: #10b981;
+    opacity: 1;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .finalize {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .finalize-left {
+        max-width: 100%;
+        width: 100%;
+        overflow-x: auto;
+    }
+    
+    .finalize-right {
+        width: 100%;
+        max-width: 500px;
+        position: static;
+    }
+    
+    .preview-header {
+        text-align: center;
+    }
+}
+
+@media (max-width: 650px) {
+    .finalize {
+        padding: 20px;
+    }
+    
+    .finalize-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .preview-wrapper {
+        transform: scale(0.55);
+        transform-origin: top center;
+        margin-bottom: -320px;
+    }
+    
+    .download-section {
+        padding: 24px;
+    }
+    
+    .template-section {
+        padding: 20px;
+    }
+}

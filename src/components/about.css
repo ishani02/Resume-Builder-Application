@@ -1,0 +1,326 @@
+/* About Page - Professional Design */
+
+.about-page {
+    background: #fafbfc;
+}
+
+/* Hero Section */
+.about-hero {
+    background: linear-gradient(135deg, #1a1a2e, #2d2d44);
+    color: white;
+    text-align: center;
+    padding: 80px 5% 100px;
+}
+
+.about-hero h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+    letter-spacing: -1px;
+}
+
+.about-hero p {
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Section Label */
+.section-label {
+    display: inline-block;
+    background: linear-gradient(135deg, #e0e7ff, #c7d2fe);
+    color: #4338ca;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+/* Mission Section */
+.about-mission {
+    padding: 100px 5%;
+    background: white;
+}
+
+.mission-content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mission-text {
+    flex: 1;
+}
+
+.mission-text h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 24px;
+    line-height: 1.3;
+}
+
+.mission-text p {
+    font-size: 1.1rem;
+    color: #64748b;
+    line-height: 1.8;
+    margin-bottom: 16px;
+}
+
+.mission-image {
+    flex: 1;
+    max-width: 500px;
+}
+
+.mission-image img {
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+/* Values Section */
+.about-values {
+    padding: 100px 5%;
+    background: #f8fafc;
+    text-align: center;
+}
+
+.about-values h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 60px;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 32px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.value-card {
+    background: white;
+    padding: 40px 32px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+}
+
+.value-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    border-color: #c7d2fe;
+}
+
+.value-icon {
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(135deg, #e0e7ff, #c7d2fe);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 24px;
+}
+
+.value-icon i {
+    font-size: 28px;
+    color: #2563eb;
+}
+
+.value-card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 12px;
+}
+
+.value-card p {
+    color: #64748b;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+/* Stats Section */
+.about-stats {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 80px 5%;
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    flex-wrap: wrap;
+}
+
+.stat-box {
+    text-align: center;
+    min-width: 150px;
+}
+
+.stat-num {
+    display: block;
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.stat-text {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Contact Section */
+.about-contact {
+    padding: 100px 5%;
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-card {
+    text-align: center;
+    max-width: 500px;
+    padding: 60px 40px;
+    background: #fafbfc;
+    border-radius: 24px;
+    border: 1px solid #e2e8f0;
+}
+
+.contact-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #10b981, #059669);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 24px;
+}
+
+.contact-icon i {
+    font-size: 32px;
+    color: white;
+}
+
+.contact-card h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 12px;
+}
+
+.contact-card > p {
+    color: #64748b;
+    font-size: 1.1rem;
+    margin-bottom: 24px;
+}
+
+.contact-email {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2563eb;
+    text-decoration: none;
+    margin-bottom: 20px;
+    transition: color 0.2s ease;
+}
+
+.contact-email:hover {
+    color: #1d4ed8;
+}
+
+.response-time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #64748b;
+    font-size: 0.95rem;
+}
+
+.response-time i {
+    color: #10b981;
+}
+
+/* CTA Section */
+.about-cta {
+    text-align: center;
+    padding: 100px 5%;
+    background: #f8fafc;
+}
+
+.about-cta h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 16px;
+}
+
+.about-cta > p {
+    font-size: 1.25rem;
+    color: #64748b;
+    margin-bottom: 32px;
+}
+
+.cta-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: white;
+    border: none;
+    padding: 18px 36px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 25px rgba(37, 99, 235, 0.35);
+}
+
+.cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 35px rgba(37, 99, 235, 0.45);
+}
+
+.cta-button i {
+    font-size: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+    .about-hero h1 {
+        font-size: 2rem;
+    }
+    
+    .mission-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .mission-image {
+        max-width: 100%;
+    }
+    
+    .values-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .about-stats {
+        gap: 40px;
+    }
+    
+    .stat-num {
+        font-size: 2.5rem;
+    }
+    
+    .about-cta h2 {
+        font-size: 1.75rem;
+    }
+}

@@ -1,0 +1,196 @@
+/* Skin 5 - Modern Minimal Resume */
+
+.skin5-container {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background: white;
+    box-sizing: border-box;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.prev-header {
+    padding: 20px;
+    border-bottom: 3px solid #1a1a2e;
+}
+
+.name {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.fname,
+.lname {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #1a1a2e;
+    line-height: 1;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+}
+
+.adress {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    justify-content: flex-end;
+}
+
+.street,
+.city,
+.state,
+.country,
+.pin {
+    font-size: 10px;
+    color: #64748b;
+}
+
+.city::after,
+.state::after {
+    content: ",";
+}
+
+.phone,
+.email {
+    font-size: 10px;
+    color: #475569;
+}
+
+/* Sections */
+.hsum,
+.edu,
+.exp {
+    display: block;
+    padding: 16px 20px;
+}
+
+.heading {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: white;
+    background: #1a1a2e;
+    padding: 6px 12px;
+    margin-bottom: 12px;
+    display: inline-block;
+}
+
+.summary {
+    width: 100%;
+}
+
+.profession,
+.details {
+    font-size: 11px;
+    color: #475569;
+    line-height: 1.6;
+    height: auto;
+}
+
+/* Education */
+.education-details {
+    width: 100%;
+}
+
+.line1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+}
+
+.edu-end {
+    display: flex;
+    gap: 6px;
+    background: #f1f5f9;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+.graduationMonth,
+.graduationYear {
+    font-size: 11px;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-right: 0;
+    padding-bottom: 0;
+}
+
+.course-detail {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 4px;
+}
+
+.degree {
+    font-size: 12px;
+    font-weight: 600;
+    color: #1a1a2e;
+}
+
+.college {
+    font-size: 12px;
+    color: #475569;
+    margin-left: 4px;
+}
+
+.edu-contact {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.educationCity,
+.educationState {
+    font-size: 10px;
+    color: #64748b;
+    margin-right: 0;
+    padding-bottom: 0;
+}
+
+.educationCity::after {
+    content: ",";
+}
+
+.cgpa {
+    font-size: 11px;
+    font-weight: 600;
+    color: #2563eb;
+    margin-top: 6px;
+    padding-bottom: 0;
+}
+
+/* Experience */
+.exp .experience-details {
+    font-size: 11px;
+    color: #475569;
+    line-height: 1.7;
+}
+
+/* Skills */
+.skl {
+    display: block;
+    padding: 0 20px 16px;
+}
+
+.skl .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skl .skill-tag {
+    background: #1a1a2e;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 500;
+}

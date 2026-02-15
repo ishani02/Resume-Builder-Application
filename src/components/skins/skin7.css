@@ -1,0 +1,208 @@
+/* Skin 7 - Bold Executive Resume */
+
+.skin7-container {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background: white;
+    box-sizing: border-box;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.skin7-container .skin-header {
+    padding: 24px 20px;
+    background: linear-gradient(135deg, #1a1a2e, #2d2d44);
+    color: white;
+}
+
+.skin7-container .skin-header .name {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+.skin7-container .skin-header .address {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+}
+
+/* Professional Summary */
+.professional-summary {
+    padding: 16px 20px;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.profession-summary-heading {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #1a1a2e;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #1a1a2e;
+}
+
+.profession-description {
+    margin-top: 0;
+}
+
+.profession-details,
+.profession-summary {
+    font-size: 11px;
+    color: #475569;
+    line-height: 1.7;
+}
+
+/* Skills */
+.skills {
+    padding: 0 20px 16px;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.skills-heading {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #1a1a2e;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #1a1a2e;
+}
+
+.skills-description {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 0;
+    justify-content: flex-start;
+}
+
+.description {
+    display: flex;
+    gap: 8px;
+}
+
+.description li {
+    font-size: 10px;
+    color: white;
+    background: #1a1a2e;
+    padding: 4px 10px;
+    border-radius: 4px;
+    list-style: none;
+    margin-left: 0;
+}
+
+/* Experience */
+.experience {
+    padding: 0 20px 16px;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.experience-heading {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #1a1a2e;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #1a1a2e;
+}
+
+.experience-description {
+    margin-top: 0;
+    margin-bottom: 12px;
+    padding-left: 12px;
+    border-left: 3px solid #e2e8f0;
+}
+
+.experience-description li {
+    font-size: 11px;
+    color: #475569;
+    line-height: 1.6;
+    list-style-type: none;
+    padding: 2px 0;
+}
+
+.experience-description li b {
+    color: #1a1a2e;
+    font-size: 11px;
+}
+
+/* Education */
+.Education {
+    padding: 0 20px 20px;
+    margin-left: 0;
+}
+
+.education-heading {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #1a1a2e;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #1a1a2e;
+}
+
+.education-description {
+    margin-top: 0;
+    height: auto;
+    padding-left: 12px;
+    border-left: 3px solid #e2e8f0;
+}
+
+.education-description .degree {
+    font-size: 12px;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 4px;
+}
+
+.education-description li {
+    font-size: 10px;
+    color: #64748b;
+    list-style: none;
+    padding: 1px 0;
+}
+
+/* Skills */
+.skills {
+    padding: 0 20px 16px;
+}
+
+.skills-heading {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #1a1a2e;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #1a1a2e;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill-item {
+    background: #1a1a2e;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 500;
+}

@@ -1,0 +1,212 @@
+/* Skin 6 - Clean Modern Resume */
+
+.skin6-container {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background: white;
+    box-sizing: border-box;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.skin6-container .skin-header {
+    padding: 24px 20px;
+    background: #fafbfc;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.skin6-container .skin-header .name {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+}
+
+.skin6-container .skin-header .address {
+    font-size: 11px;
+    color: #64748b;
+    line-height: 1.6;
+}
+
+/* Professional Summary */
+.professional-summary {
+    padding: 16px 20px;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.profession-summary-heading {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #1a1a2e;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #10b981;
+}
+
+.profession-description {
+    margin-top: 0;
+}
+
+.profession-details,
+.profession-summary {
+    font-size: 11px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+/* Skills */
+.skills {
+    padding: 0 20px 16px;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.skills-heading {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #1a1a2e;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #10b981;
+}
+
+.skills-description {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 0;
+    justify-content: flex-start;
+}
+
+.description {
+    list-style: none;
+}
+
+.description li {
+    font-size: 10px;
+    color: #475569;
+    padding: 3px 0;
+    list-style: disc;
+    margin-left: 16px;
+}
+
+/* Experience */
+.experience {
+    padding: 0 20px 16px;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.experience-heading {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #1a1a2e;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #10b981;
+}
+
+.experience-description {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.experience-description li {
+    font-size: 11px;
+    color: #475569;
+    line-height: 1.6;
+    list-style-type: none;
+    padding: 2px 0;
+}
+
+.experience-description li b {
+    color: #1a1a2e;
+}
+
+/* Education */
+.Education {
+    padding: 0 20px 20px;
+    margin-left: 0;
+    font-size: inherit;
+}
+
+.education-heading {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #1a1a2e;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #10b981;
+}
+
+.education-description {
+    margin-top: 0;
+    font-size: inherit;
+    height: auto;
+}
+
+.education-description .degree {
+    font-size: 12px;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 6px;
+}
+
+.education-description li {
+    font-size: 11px;
+    color: #64748b;
+    list-style: none;
+    padding: 2px 0;
+    display: inline;
+}
+
+.education-description li::after {
+    content: " · ";
+    color: #cbd5e1;
+}
+
+.education-description li:last-child::after {
+    content: "";
+}
+
+/* Skills */
+.skills {
+    padding: 0 20px 16px;
+}
+
+.skills-heading {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #1a1a2e;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #10b981;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill-item {
+    background: #f1f5f9;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 10px;
+    color: #1a1a2e;
+    font-weight: 500;
+}
