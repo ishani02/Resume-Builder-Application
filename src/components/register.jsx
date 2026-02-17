@@ -146,7 +146,12 @@ const Register = (props) => {
                         <div className="terms">
                             <label className="terms-checkbox">
                                 <input type="checkbox" required />
-                                <span>I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></span>
+                                <span>
+                                    I agree to the{" "}
+                                    <button type="button" className="link-button">Terms of Service</button>
+                                    {" "}and{" "}
+                                    <button type="button" className="link-button">Privacy Policy</button>
+                                </span>
                             </label>
                         </div>
 

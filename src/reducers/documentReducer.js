@@ -1,12 +1,12 @@
 const { initialState } = require("./initialState");
 
 export const documentReducer = (state = initialState.document , action) =>{
-    if(action.type == "CHANGE_SKIN"){
+    if(action.type === "CHANGE_SKIN"){
                return{ 
                     ...state , skinCode : action.skinCode
                }
            }
-    else if(action.type=="LOAD_RESUME"){
+    else if(action.type==="LOAD_RESUME"){
         // load saved skin from firestore
         if(action.resumeData && action.resumeData.skinCode){
             return{
@@ -15,7 +15,7 @@ export const documentReducer = (state = initialState.document , action) =>{
             };
         }
     }
-    else if(action.type=="LOGOUT"){
+    else if(action.type==="LOGOUT"){
         // reset to default on logout
         return initialState.document;
     }

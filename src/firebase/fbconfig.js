@@ -1,5 +1,6 @@
-import firebase from "firebase";
-
+import firebase from "firebase/app";
+import "firebase/auth";
+import "firebase/firestore";
 
 const firebaseConfig = {
     apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
@@ -11,7 +12,7 @@ const firebaseConfig = {
     appId: process.env.REACT_APP_FIREBASE_APP_ID
   };
   // Initialize Firebase
-  const firebaseApp=firebase.initializeApp(firebaseConfig);
+  firebase.initializeApp(firebaseConfig);
 
   const auth=firebase.auth();//handles auth wala kaam
   const db=firebase.firestore();//to access db
